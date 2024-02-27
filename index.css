@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+ 
+}
+.input{
+  width: 626px;
+  height: 64px;
+margin-top: 128px;
+
+  color: #1d0ae7;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #1d0ae7; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('fonts/FiraSans-Black.ttf') format('woff2'); /* Замените путь на актуальный путь к вашему шрифту */
+  font-weight: normal;
+  font-style: normal;
+}
